@@ -1,0 +1,38 @@
+
+
+  .mediaDiv1{
+    width: 100%;
+    position: fixed;
+ 
+    top:100px;
+    z-index: 100;
+    background-color: white;
+    padding: 20px 0px;
+    transition: 0.5s;
+    display: none;
+}
+
+.medialink1{
+    padding: 7px 12px;
+    display: block;
+    color: #6c757d;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: .6px;
+    font-family: 'Baloo Paaji', cursive;
+}
+
+.medialink1:hover{
+    color: #695aa6;
+    transition: 0.5s;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1000px)  {
+   .mediaDiv1{
+    display: block;
+   }
+   
+}

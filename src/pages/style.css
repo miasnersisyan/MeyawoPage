@@ -1,0 +1,535 @@
+
+
+.w1{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w1-1{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w1-1d1{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.w1ver1{
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.w1sp1{
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.w1sp1-1{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    top: 12px;
+    left: 0;
+    z-index: 2;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+.w1sp1-2{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    top: 12px;
+    left: 0;
+    z-index: 2;
+  transition: 0.5s;
+}
+.w1sp1-3{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 11.5px;
+    left: 0;
+    z-index: 2;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+}
+
+.w1sp2{
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+    margin: 0px 10px;
+    font-weight: 400;
+    transform: translateY(-55px);
+    opacity: 0;
+}
+
+.w1sp2:hover{
+    color: #493f75;
+    transition: 0.1s;
+}
+
+.w1sp2tr1{
+    transition: 1.8s;
+}
+.w1sp2tr2{
+    transition: 1.5s;
+}
+.w1sp2tr3{
+    transition: 1.2s;
+}
+.w1sp2tr4{
+    transition: 0.9s;
+}
+.w1sp2tr5{
+    transition: 0.6s;
+}
+.w1sp2tr6{
+    transition: 0.3s;
+}
+
+.w1-1parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: 0.5s;
+    background: none;
+}
+
+.w1textdiv{
+    width: 45%;
+    margin-top: 100px;
+}
+
+.w1textver1{
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 5px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 55px;
+    line-height: 70px;
+}
+.w1textver2{
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 5px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 95px;
+    line-height: 120px;
+}
+.w1textver3{
+    font-weight: 500;
+    color: #212529;
+    margin-bottom: 5px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.w1btn1{
+    padding: 10px 28px;
+    border: none;
+    background-color: #493f75;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Baloo Paaji 2', cursive;
+    border-radius: 40px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.w1btn1:hover{
+    box-shadow: 0px 1px 15px 4px blue;
+    transition: 0.5s;
+}
+
+
+
+.w2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+
+}
+
+.w2-1{
+    display: flex;
+}
+
+.w2-1d1{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+}
+.w2-1d2{
+    width: 70%;
+}
+
+.w2img1{
+    width: 80%;
+}
+
+.w2p1{
+    margin-bottom: 6px;
+    font-weight: 400;
+    opacity: .6;
+    color: #111;
+    letter-spacing: .6px;
+    line-height: 1.5;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 20px;
+}
+.w2ver1{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    line-height: 1.2;
+   
+    font-size: 45px;
+}
+
+.w2p2{
+    font-weight: 100;
+    opacity: 1;
+    color: #111;
+    letter-spacing: .6px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 18px;
+}
+
+.w2btn1{
+    padding: 6px 25px;
+    border: 1px solid #493f75;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #111;
+    transition: 0.5s;
+}
+
+.w2btn1:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: #493f75;
+}
+
+.w3{
+    width: 100%;
+   
+    padding: 70px 0px;
+
+}
+
+.w3-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.pageP1{
+    margin-bottom: 6px;
+    font-weight: 400;
+    opacity: .6;
+    color: #111;
+    letter-spacing: .6px;
+    text-align: center;
+    font-family: 'Baloo Paaji 2', cursive;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.pageVer1{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    line-height: 1.2;
+   
+    font-size: 45px;
+    text-align: center;
+}
+
+.w4{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.w4-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.w5{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.w5-1{
+    padding-top: 50px;
+    display: flex;
+}
+
+.w6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: #695aa6;
+}
+
+.w6-1{
+    width: 45%;
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.w6-1d1{
+    width: auto;
+}
+
+.w6ver1{
+    font-weight: 500;
+    font-family: 'Baloo Paaji', cursive;
+    color: #f8f9fa !important;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-size: 28px;
+}
+
+.w6p1{
+    font-weight: 500;
+    font-family: 'Baloo Paaji', cursive;
+    color: #f8f9fa !important;
+ 
+    font-size: 20px;
+}
+
+.w6btn1{
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    color: #493f75;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.w6btn1:hover{
+    box-shadow: 0px 1px 15px 5px white;
+    transition: 0.5s;
+}
+
+
+.w7{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.w7-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.w8{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.w8-1{
+    padding-top: 50px;
+}
+
+.w9{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.w9-1{
+    width: 45%;
+    max-width: 1720px;
+    padding-top: 50px;
+}
+
+.inpDiv1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inp1{
+    width: 48%;
+    border: 1px solid #ced4da;
+    height: 38px;
+    border-radius: 4px;
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.01);
+    font-size: 16px;
+    font-family: 'Baloo Paaji', cursive;
+    transition: 0.5s;
+}
+
+.inp1:focus-visible{
+    outline: none;
+    box-shadow: 0px 0px 6px 4px Aqua;
+}
+
+.textarea{
+    width: 100%;
+    border: 1px solid #ced4da;
+    height: 100px;
+    border-radius: 4px;
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.01);
+    font-size: 16px;
+    font-family: 'Baloo Paaji', cursive;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+
+.textarea:focus-visible{
+    outline: none;
+    box-shadow: 0px 0px 6px 4px Aqua;
+}
+
+.w9btn1{
+    padding: 8px 20px;
+    border: 1px solid #493f75;
+    background-color: white;
+    color: #493f75;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Baloo Paaji', cursive;
+    transition: 0.5s;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.w9btn1:hover{
+    background-color: #493f75;
+    color: white;
+    transition: 0.5s;
+}
+
+.w10{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.w10-1{
+    border-top: 1px solid #dee2e6;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w10p1{
+    color: #393e46;
+    padding: 4px 0;
+    line-height: 1.5;
+    letter-spacing: .6px;
+    font-family: 'Baloo Paaji', cursive;
+}
+
+.w10btndiv{
+    width: auto;
+    display: flex;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1000px)  {
+  .mediaNone1{
+    display: none;
+  }
+
+  .w1textver1{
+    font-size: 45px;
+  }
+  .w1textver2{
+    font-size: 45px;
+  }
+  .w1textver3{
+    font-size: 45px;
+  }
+  .w1textdiv{
+    width: 80%;
+    margin-top: 180px;
+  }
+  .w2-1{
+    display: block;
+  }
+  .w2-1d1{
+    width: 100%;
+  }  
+  .w2-1d2{
+    width: 100%;
+    margin-top: 25px;
+  }  
+  .w3-1{
+    display: block;
+  }
+  .w4-1{
+    display: block;
+  }
+  .w5-1{
+    display: block;
+  }
+  .w6-1{
+    display: block;
+    width: 80%;
+  }
+  .w6-1d1{
+    margin-bottom: 20px;
+  }
+  .w7-1{
+    display: block;
+  }
+  .w9-1{
+    width: 80%;
+  }
+  .w10-1{
+    display: block;
+  }
+  .w10btndiv{
+    margin-top: 15px;
+  }
+ }
+

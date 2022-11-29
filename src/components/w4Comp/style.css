@@ -1,0 +1,60 @@
+
+
+.w4d1{
+    width: 32%;
+    height: auto;
+    position: relative;
+}
+
+.w4d1img1{
+    width: 100%;
+    height: auto;
+}
+
+.w4d1-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:  linear-gradient(to top, #e1dfed 0%, rgba(225, 223, 237, 0.7) 99%, rgba(225, 223, 237, 0.8) 100%);
+    transition: 0.5s;
+    transform: scale(0);
+    display: flex;
+    align-items: center;
+}
+
+.w4d1:hover .w4d1-1{
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.w4d1-1textdiv{
+    width: 100%;
+}
+
+.w4d1ver1{
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.w4d1p1{
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Baloo Paaji', cursive;
+    color: #111;
+    margin-bottom: 0.5rem;
+    font-size: 19px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1000px)  {
+    .w4d1{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

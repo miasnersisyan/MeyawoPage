@@ -1,0 +1,30 @@
+
+@import url('./icons/style.css');
+
+*{
+    margin: 0;
+}
+
+
+.G-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.G-selection::selection{
+    background-color: #493f75;
+    color: white;
+}
+
+.G-mainDiv{
+    width: 65%;
+    max-width: 2200px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1600px)  {
+    .G-mainDiv{
+    width: 90%;
+    }
+    
+ }
